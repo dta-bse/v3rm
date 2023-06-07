@@ -15,7 +15,7 @@ local function addKeyValueToCharacter(char)
 
     local billboardGui = Instance.new("BillboardGui")
     billboardGui.Name = "KeyBillboard"
-    billbaordGui.Adornee = char.Head
+    billboardGui.Adornee = char.Head
     billboardGui.AlwaysOnTop = true
     billboardGui.LightInfluence = 0
     billboardGui.Size = UDim2.new(2, 0, 2, 0) 
@@ -68,7 +68,6 @@ end)
 userInputService.InputBegan:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.Keyboard and not textInputFocused then
         local keyPressed = input.KeyCode
-        print("Player pressed:", keyPressed)
 
         for _, player in ipairs(game.Players:GetPlayers()) do
             if player ~= game.Players.LocalPlayer and player.Character and player.Character:FindFirstChild("KeyValue") then
