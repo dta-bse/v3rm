@@ -1,47 +1,41 @@
-local usedKeys = {}  -- Keeps track of used keys
-
--- //Functions
+local usedKeys = {}
 
 local function addKeyValueToCharacter(char)
     local keyValue = Instance.new("StringValue")
     local randomKey = nil
 
-    -- Find an available key that is not already used
     repeat
-        randomKey = Keys[math.random(1, #Keys)]
+        randomKey = getgenv().Keys[math.random(1, #getgenv().Keys)]
     until not usedKeys[randomKey]
 
     keyValue.Name = "KeyValue"
     keyValue.Value = randomKey
     keyValue.Parent = char
-    usedKeys[randomKey] = true  -- Mark the key as used
+    usedKeys[randomKey] = true
 
-    -- Create BillboardGui
     local billboardGui = Instance.new("BillboardGui")
     billboardGui.Name = "KeyBillboard"
     billbaordGui.Adornee = char.Head
     billboardGui.AlwaysOnTop = true
     billboardGui.LightInfluence = 0
-    billboardGui.Size = UDim2.new(2, 0, 2, 0)  -- Scale up the size
-    billboardGui.StudsOffset = Vector3.new(0, 3, 0)  -- Adjust the offset
-    billboardGui.Parent = char.Head  -- Attach to the player's Head
+    billboardGui.Size = UDim2.new(2, 0, 2, 0) 
+    billboardGui.StudsOffset = Vector3.new(0, 3, 0) 
+    billboardGui.Parent = char.Head
 
-    -- Create ImageLabel inside BillboardGui
     local keyLabel = Instance.new("ImageLabel")
     keyLabel.BackgroundTransparency = 1
     keyLabel.Size = UDim2.new(1, 0, 1, 0)
     keyLabel.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=13045815860&width=420&height=420"
     keyLabel.Parent = billboardGui
 
-    -- Create TextLabel inside ImageLabel
     local textLabel = Instance.new("TextLabel")
     textLabel.BackgroundTransparency = 1
     textLabel.Size = UDim2.new(1, 0, 1, 0)
-    textLabel.Position = UDim2.new(0, 0, -0.05, 0)  -- Adjust the vertical position
+    textLabel.Position = UDim2.new(0, 0, -0.05, 0)
     textLabel.Font = Enum.Font.SourceSansBold
-    textLabel.TextColor3 = Color3.new(0, 0, 0)  -- Black text color
+    textLabel.TextColor3 = Color3.new(0, 0, 0)
     textLabel.TextScaled = true
-    textLabel.Text = randomKey:upper()  -- Capitalize the key
+    textLabel.Text = randomKey:upper()
     textLabel.Parent = keyLabel
 end
 
@@ -51,8 +45,6 @@ local function checkForNewCharacter(player)
     end
     player.CharacterAdded:Connect(addKeyValueToCharacter)
 end
-
--- //Connections
 
 game.Players.PlayerAdded:Connect(function(player)
     checkForNewCharacter(player)
