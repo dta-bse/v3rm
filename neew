@@ -295,7 +295,7 @@ local function getObjGen()
 
             Gui.Button.Name = "Button"
             Gui.Button.Parent = Gui.Cheats
-            Gui.Button.BackgroundColor3 = Color3.fromRGB(178, 34, 34)
+            Gui.Button.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
             Gui.Button.BorderColor3 = Color3.fromRGB(27, 42, 53)
             Gui.Button.BorderSizePixel = 0
             Gui.Button.Size = UDim2.new(1, 0, 1, 0)
@@ -364,7 +364,7 @@ local function getObjGen()
             Gui.Selection.Name = "Selection"
             Gui.Selection.Parent = Gui.Checkbox
             Gui.Selection.AnchorPoint = Vector2.new(0.5, 0.5)
-            Gui.Selection.BackgroundColor3 = Color3.fromRGB(83, 87, 158)
+            Gui.Selection.BackgroundColor3 = Color3.fromRGB(178, 34, 34)
             Gui.Selection.BackgroundTransparency = 1.000
             Gui.Selection.BorderSizePixel = 0
             Gui.Selection.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -585,7 +585,7 @@ local function getObjGen()
 
             Gui.HoverFrame_4.Name = "HoverFrame"
             Gui.HoverFrame_4.Parent = Gui.Keybind
-            Gui.HoverFrame_4.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+            Gui.HoverFrame_4.BackgroundColor3 = Color3.fromRGB(35, 18, 18)
             Gui.HoverFrame_4.BackgroundTransparency = 1.000
             Gui.HoverFrame_4.BorderSizePixel = 0
             Gui.HoverFrame_4.Size = UDim2.new(1, 0, 1, 0)
@@ -1044,7 +1044,7 @@ local function getObjGen()
             Gui.Select_2.Size = UDim2.new(1, 0, 1, 0)
             Gui.Select_2.ZIndex = 121
             Gui.Select_2.Image = "rbxassetid://7890925834"
-            Gui.Select_2.ImageColor3 = Color3.fromRGB(83, 87, 158)
+            Gui.Select_2.ImageColor3 = Color3.fromRGB(178, 34, 34)
             Gui.Select_2.ImageTransparency = 1.000
             Gui.Select_2.ScaleType = Enum.ScaleType.Slice
             Gui.Select_2.SliceCenter = Rect.new(512, 512, 512, 512)
@@ -1094,7 +1094,7 @@ local function getObjGen()
             Gui.Select_3.Size = UDim2.new(1, 0, 1, 0)
             Gui.Select_3.ZIndex = 121
             Gui.Select_3.Image = "http://www.roblox.com/asset/?id=8374820043"
-            Gui.Select_3.ImageColor3 = Color3.fromRGB(83, 87, 158)
+            Gui.Select_3.ImageColor3 = Color3.fromRGB(178, 34, 34)
             Gui.Select_3.ImageTransparency = 1.000
             Gui.Select_3.ScaleType = Enum.ScaleType.Slice
             Gui.Select_3.SliceCenter = Rect.new(512, 512, 512, 512)
@@ -1127,7 +1127,7 @@ local function getObjGen()
 
             Gui.HoverFrame_5.Name = "HoverFrame"
             Gui.HoverFrame_5.Parent = Gui.Category
-            Gui.HoverFrame_5.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+            Gui.HoverFrame_5.BackgroundColor3 = Color3.fromRGB(57, 27, 27)
             Gui.HoverFrame_5.BackgroundTransparency = 1.000
             Gui.HoverFrame_5.BorderSizePixel = 0
             Gui.HoverFrame_5.Size = UDim2.new(1, 0, 1, 0)
@@ -1225,7 +1225,7 @@ local function getObjGen()
             Gui.MainUI.Name = "MainUI"
             Gui.MainUI.Parent = Gui.Window
             Gui.MainUI.AnchorPoint = Vector2.new(0.5, 0.5)
-            Gui.MainUI.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+            Gui.MainUI.BackgroundColor3 = Color3.fromRGB(35, 18, 18)
             Gui.MainUI.Position = UDim2.new(0.5, 0, 0.5, 0)
             --Gui.MainUI.Size = UDim2.new(0.47, 0, 0.75, 0)
             Gui.MainUI.Size = UDim2.new(0, 851, 0, 488)
@@ -1328,7 +1328,7 @@ local function getObjGen()
             Gui.Fill.Size = UDim2.new(1, 0, 1, 0)
             Gui.Fill.ZIndex = 122
             Gui.Fill.Image = "rbxassetid://7881868371"
-            Gui.Fill.ImageColor3 = Color3.fromRGB(32, 32, 32)
+            Gui.Fill.ImageColor3 = Color3.fromRGB(50, 32, 32)
             Gui.Fill.ScaleType = Enum.ScaleType.Slice
             Gui.Fill.SliceCenter = Rect.new(512, 512, 512, 512)
             Gui.Fill.SliceScale = 0.010
@@ -1401,7 +1401,7 @@ local function getObjGen()
             Gui.Fill_2.Size = UDim2.new(1, 0, 1, 0)
             Gui.Fill_2.ZIndex = 120
             Gui.Fill_2.Image = "rbxassetid://7881302920"
-            Gui.Fill_2.ImageColor3 = Color3.fromRGB(27, 27, 27)
+            Gui.Fill_2.ImageColor3 = Color3.fromRGB(40, 27, 27)
             Gui.Fill_2.ScaleType = Enum.ScaleType.Slice
             Gui.Fill_2.SliceCenter = Rect.new(512, 512, 512, 512)
             Gui.Fill_2.SliceScale = 0.020
@@ -1422,7 +1422,7 @@ local function getObjGen()
             Gui.Tab2.Size = UDim2.new(0.850000024, 0, 1, 0)
             Gui.Tab2.ZIndex = 120
             Gui.Tab2.Image = "rbxassetid://7881302920"
-            Gui.Tab2.ImageColor3 = Color3.fromRGB(27, 27, 27)
+            Gui.Tab2.ImageColor3 = Color3.fromRGB(40, 27, 27)
             Gui.Tab2.ScaleType = Enum.ScaleType.Slice
             Gui.Tab2.SliceCenter = Rect.new(512, 512, 512, 512)
             Gui.Tab2.SliceScale = 0.020
@@ -1466,7 +1466,7 @@ local function getObjGen()
             Gui.ColorPickerOverlay.ZIndex = 200
             Gui.ColorPickerOverlay.AutoButtonColor = false
             Gui.ColorPickerOverlay.Image = "rbxassetid://7880418493"
-            Gui.ColorPickerOverlay.ImageColor3 = Color3.fromRGB(18, 18, 18)
+            Gui.ColorPickerOverlay.ImageColor3 = Color3.fromRGB(35, 18, 18)
             Gui.ColorPickerOverlay.ImageTransparency = 1.000
             Gui.ColorPickerOverlay.ScaleType = Enum.ScaleType.Slice
             Gui.ColorPickerOverlay.SliceCenter = Rect.new(512, 512, 512, 512)
@@ -1641,7 +1641,7 @@ local function getObjGen()
             Gui.RGB.Size = UDim2.new(0.600000024, 0, 0.800000012, 0)
             Gui.RGB.ZIndex = 202
             Gui.RGB.Image = "rbxassetid://7880418493"
-            Gui.RGB.ImageColor3 = Color3.fromRGB(32, 32, 32)
+            Gui.RGB.ImageColor3 = Color3.fromRGB(50, 32, 32)
             Gui.RGB.ScaleType = Enum.ScaleType.Slice
             Gui.RGB.SliceCenter = Rect.new(512, 512, 512, 512)
             Gui.RGB.SliceScale = 0.010
@@ -1703,7 +1703,7 @@ local function getObjGen()
             Gui.Hex.Size = UDim2.new(0.349999994, 0, 0.800000012, 0)
             Gui.Hex.ZIndex = 202
             Gui.Hex.Image = "rbxassetid://7880418493"
-            Gui.Hex.ImageColor3 = Color3.fromRGB(32, 32, 32)
+            Gui.Hex.ImageColor3 = Color3.fromRGB(50, 32, 32)
             Gui.Hex.ScaleType = Enum.ScaleType.Slice
             Gui.Hex.SliceCenter = Rect.new(512, 512, 512, 512)
             Gui.Hex.SliceScale = 0.010
@@ -1920,7 +1920,7 @@ local function getObjGen()
 
             Gui.Shadow_3.Name = "Shadow"
             Gui.Shadow_3.Parent = Gui.Content_7
-            Gui.Shadow_3.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+            Gui.Shadow_3.BackgroundColor3 = Color3.fromRGB(35, 18, 18)
             Gui.Shadow_3.BorderSizePixel = 0
             Gui.Shadow_3.Position = UDim2.new(-0.0192201305, 0, 0, 0)
             Gui.Shadow_3.Size = UDim2.new(1.01922011, 0, 1, 0)
@@ -2015,7 +2015,7 @@ local function getObjGen()
 
             Gui.HoverFrame_6.Name = "HoverFrame"
             Gui.HoverFrame_6.Parent = Gui.CategoryButton
-            Gui.HoverFrame_6.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+            Gui.HoverFrame_6.BackgroundColor3 = Color3.fromRGB(57, 27, 27)
             Gui.HoverFrame_6.BackgroundTransparency = 1.000
             Gui.HoverFrame_6.BorderSizePixel = 0
             Gui.HoverFrame_6.Size = UDim2.new(1, 0, 1, 0)
@@ -2083,7 +2083,7 @@ local function getObjGen()
 
             Gui.Border.Name = "Border"
             Gui.Border.Parent = Gui.Section
-            Gui.Border.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+            Gui.Border.BackgroundColor3 = Color3.fromRGB(35, 18, 18)
             Gui.Border.BorderSizePixel = 0
             Gui.Border.Size = UDim2.new(1, 0, 1, 0)
             Gui.Border.ZIndex = 107
@@ -3730,7 +3730,7 @@ function UILibrary.Window:ChangeCategory(new)
             Object.Content.Image,
             TI,
             {
-                ImageColor3 = Color3.fromRGB(83, 87, 158)
+                ImageColor3 = Color3.fromRGB(178, 34, 34)
             }
         ):Play()
 
@@ -3738,7 +3738,7 @@ function UILibrary.Window:ChangeCategory(new)
             Object.Content.Title,
             TI,
             {
-                TextColor3 = Color3.fromRGB(83, 87, 158)
+                TextColor3 = Color3.fromRGB(178, 34, 34)
             }
         ):Play()
 
@@ -3826,7 +3826,7 @@ function UILibrary.Window:ChangeCategorySelection(name)
             Object.InnerContent.Image,
             TI,
             {
-                ImageColor3 = Color3.fromRGB(83, 87, 158)
+                ImageColor3 = Color3.fromRGB(178, 34, 34)
             }
         ):Play()
 
@@ -3834,7 +3834,7 @@ function UILibrary.Window:ChangeCategorySelection(name)
             Object.InnerContent.Title,
             TI,
             {
-                TextColor3 = Color3.fromRGB(83, 87, 158)
+                TextColor3 = Color3.fromRGB(178, 34, 34)
             }
         ):Play()
 
